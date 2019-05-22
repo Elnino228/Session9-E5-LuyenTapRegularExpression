@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script !src="">
+    function countWordInString(str) {
+        str=str.trim();
+        let patt=/\s+/g;
+        let array=str.match(patt);
+        let result=array.length+1;
+        console.log(result);
+    }
+    countWordInString('  mot hai  ba bon 88');
+</script>
+</body>
+</html>

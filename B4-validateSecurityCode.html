@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script !src="">
+    function isSecurityCode(str) {
+        //
+        let regexp=/^[a-zA-Z0-9]*[a-z]+[A-Z]+[0-9]+[a-zA-Z0-9]{3}$/;
+        if (regexp.test(str)){
+            console.log(true);
+        } else console.log(false);
+    }
+    isSecurityCode('aA11du');
+</script>
+</body>
+</html>
